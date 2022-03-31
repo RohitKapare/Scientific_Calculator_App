@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;    
+    font-size: 190px;
+    background-color: antiquewhite;
+}
+
+.outline{
+    height: 500px;
+    width: 500px;
+    margin: 50px auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns:repeat(2, 1fr);
+    background-color: blue;
+}
+
+.pi{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    background-color: #46e0bc;
+}
+
+.plus{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+    background-color: #FFF;
+    color:  #3ab699;
+}
+
+.factorial{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+    color:  #3ab699;
+    background-color: #FFF;
+}
+
+.equals{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    background-color: #46e0bc;
+}

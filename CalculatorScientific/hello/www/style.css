@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-origin: padding-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+:focus{
+    outline: none;
+}
+
+html{
+    font-size: 5vh;
+}
+
+button{
+    font-size: 5vh;
+}
+
+.calc-container{
+    background-color: white;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.output{
+    background-color: #1d1d1d;
+
+    height: 20vh;
+    width: 100vw;
+
+    position: absolute;
+    
+    padding: 2vh 0 0 0;
+
+    top: 0;
+}
+
+.operation{
+    width: 100vw;
+    height: 8vh;
+
+    color: #878787;
+
+    font-size: 5vh;
+    font-weight: 500;
+
+    overflow: hidden;
+}
+
+.operation .value{
+    width: 96vw;
+    height: 8vh;
+
+    display: flex;
+    flex-direction: row-reverse;
+
+    margin: 0 2vw;
+
+    position: absolute;
+
+    right: 1vw;
+    text-align: right;
+
+    white-space: nowrap;
+    overflow: auto; 
+}
+
+.result {
+    width: 100vw;
+    height: 10vh;
+
+    color: #fff;
+
+    font-size: 6vh;
+
+    overflow: hidden;
+}
+
+.result .value{
+    width: 96vw;
+    height: 8vh;
+
+    margin: 0 2vw;
+
+    position: absolute;
+
+    right: 1vw;
+    text-align: right;
+
+    white-space: nowrap; 
+    overflow: auto;
+}
+
+.input{
+    height: 80vh;
+    width: 100vw;
+
+
+    background-color: #fff;
+
+    position: absolute;
+    top: 20vh;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.row button{
+    width: 25vw;
+    height: 8vh;
+
+    font-size: 4.5vh;
+
+    border: none;
+
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+.row button:hover{
+    font-weight: 500;
+}
+
+.row #calculate{
+    color: #FFF;
+    background-color: #46e0bc;
+
+    width: 50vw;
+    height: 7vh;
+
+    border-radius: 3.5vh;
+}
+
+.row #delete{
+    height: 7vh;
+    width: 24vw;
+    
+    border-radius: 3.5vh;
+
+    color: #fff;
+    background-color: #e05046;
+}
+
+.row #deg, #rad{
+    height: 7vh;
+}
+
+#division, #multiplication, #subtraction, #addition{
+    color: #18b893;
+}
+
+.input button span{
+    font-size: 0.6em;
+    position: absolute;
+}
+
+.active-angle{
+    background-color: #1d1d1d !important;
+    color: #FFF !important;
+    border-radius: 3.5vh !important;
+}
